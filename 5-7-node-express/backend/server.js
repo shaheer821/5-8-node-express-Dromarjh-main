@@ -17,7 +17,7 @@ app.get("/api/quote", (req, res) => {
   res.json(quote);
 });
 
-// Route: GET / - Health check
+//Route: GET / - Health check
 app.get("/", (req, res) => {
   res.json({ message: "Quote API is running!" });
 });
